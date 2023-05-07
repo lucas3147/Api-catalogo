@@ -1,0 +1,160 @@
+STRING DE CONEXÃO
+
+Server=localhost;Database=master;Trusted_Connection=True;
+
+
+				AULA 2: CONCEITOS GERAIS
+
+API - Application Programming Interface
+
+Conjunto de rotinas e padrões estabelecidos e documentados por uma aplicação para que outras aplicações consigam utilizar suas funcionalidades sem precisar conhecer detalhes da sua implementação
+
+
+1 - Permitem fazer a integração de sistemas
+
+2 - Faciltam o intercâmbio de informações 
+
+3 - Oferecem maior Segurança nos dados
+
+4 - Permite fazer o Controle de Acesso
+
+5 - São fáceis de implementar e usar
+
+Grupos de APIS
+
+Públicas
+
+	Facebook
+	Twitter
+	Instagram
+	Google Maps
+	NetFlix
+	PagSeguro
+	PayPal
+	LUGU
+	Gerencianet
+	Cielo
+	Uber
+	IFood
+	Telegram
+	NasaAPI
+	Open Weather
+
+Privadas
+
+	...
+
+WEB SERVICES
+
+	São um conjunto de métodos inocados por outras aplicações utilizando tecnologias WQeb sendo uma solução utilizada na integração de sistemas e na comunicação entre aplicações distintas
+
+Características
+
+	1 - Estão apoiados no XML e no protocolo SOAP
+
+	2 - Permitem integração de sistemas
+
+	3 - Permitem a reutilização de código
+	
+	4 - Podem ser desenvolvidas em tempo reduzido
+
+	5 - Apresentam maior segurança
+
+DIFERENÇAS ENTRE UM WEB SERVICES E UMA API
+
+WebServices 
+x
+API
+
+Todas os Web Services são APIS		
+x		
+Nem toda API é um Web Service
+
+--
+
+Usam apenas três meios de comunicação : SOAP, REST e CML-RPC		
+x		
+Uma API pode usar qualquer meio de comunicação
+
+--
+
+São autocontidas e autodescritivas que podem ser publicados, localizados e invocados na Web
+x
+São de código aberto e podem ser usadas em qualquer lugar
+
+--
+
+Podem não realizar todas as operações que uma API faz
+x
+Podem realizar todas as operações dos web services
+
+--
+
+Requer um protocolo SOAP para receber e enviar dados pela rede, portanto não é uma arquitetura leve
+x
+É uma arquitetura leve para dispositivos com largura de banda limitada, como dispositiveis móveis
+
+--
+
+Necessita de uma rede para o seu funcionamento
+x
+Não precisa de uma rede para funcionar
+
+-- 
+
+Tendem a oferecer funcionalidades específicas a usuários específicos
+x
+Tendem a serem abertas a qualquer tipo de usuário que a pretende consumir
+
+--
+
+EVOLUÇÃO DOS WEB SERVICES PARA WEB API
+
+WEB API
+
+	É uma API na internet, com um conjunto de serviços expostos via web ara realizar a integração da aplicação com diversos tipos de clientes (web, mobile, desktop, etc.)
+
+1 - Java, .NET, Ruby On Rayls, JavaScript, Node.js, etc.
+2 - Resposta em um formato específico como CML, JSON, etc.
+3 - Pode ser acessadas usando o protocolo HTTP
+4 - Tipos de resposta : arquivo texto, imagem, som, operação, banco de dados, objetos, etc.
+
+Exemplos de Web Apis
+
+- YouTube
+- Google APIS
+- Instagram
+- Twitter
+- NetFlix
+
+Onde encontrar APIs publicas: 
+
+Visite: any-api.com
+
+
+				AULA 10: NÍVEIS DE MATURIDADE DE RICHARDSON
+
+É um modelo sugerido em 2008 por Leonard Richardson que classifica as APIs com base em sua aderência e conformidade com cada um dos quatro níveis do modelo :
+
+Nível 0:
+
+	POX - Plain Old XML
+
+Nível 1: 
+
+	Recursos
+
+Nível 2: 
+
+	Verbos HTTP
+
+Nível 3 (conhecido como a glória do Rest):
+
+	HATEOAS
+
+A maturidade de um servoço é baseada em três fatores neste modelo: Recursos / URI, verbos HTTP e HATEOAS (Hipermídia)
+
+// Na teoria, apenas as APIs que atendem o nível 3 (HATEOAS) podem ser consideradas APIs Rest
+
+// Na prática, podemos classificar grande parte das APIs como estando no nível 2
+
